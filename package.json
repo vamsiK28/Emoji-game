@@ -1,5 +1,5 @@
 {
-  "homepage":"https://vamsiK28.github.io/Emoji-game"
+  "homepage": "https://vamsiK28.github.io/Emoji-game",
   "name": "emoji-game",
   "private": true,
   "version": "1.0.0",
@@ -28,8 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
