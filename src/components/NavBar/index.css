@@ -1,0 +1,30 @@
+/* Write your code here. */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff33;
+  padding: 20px;
+}
+
+.emoji-game-logo {
+  width: 40px;
+  margin-left: 0px;
+}
+
+.emoji-game-logo-and-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-game-logo-title {
+  color: #ffffff;
+  font: 500 20px 'Roboto';
+}
+
+.score-text {
+  color: #ffffff;
+  font: 400 18px 'Roboto';
+  margin-left: 10px;
+}

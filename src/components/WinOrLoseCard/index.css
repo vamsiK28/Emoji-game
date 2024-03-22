@@ -1,0 +1,57 @@
+/* Write your code here. */
+.win-loss-box {
+  background-color: #ffffff33;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-result {
+  font: 500 30px 'Roboto';
+  color: #ffffff;
+}
+
+.score-title-text {
+  font: 500 20px 'Roboto';
+  color: #ffffff;
+}
+
+.score-number-text {
+  font: 500 20px 'Roboto';
+  color: #6a59ff;
+}
+
+.win-loss-image {
+  width: calc(50% - 10px);
+}
+
+.score-reset-button {
+  border-radius: 12px;
+  border-style: none;
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font: 500 15px 'Roboto';
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .win-loss-box {
+    flex-direction: column;
+  }
+  .win-loss-image {
+    order: -1;
+  }
+}
